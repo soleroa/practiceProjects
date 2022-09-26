@@ -24,6 +24,15 @@ p{
     padding: 20px;
     margin-bottom: 110px;
 }
+section article{
+    color: #4d4e53;
+    margin: 16px 0px;
+}
+.nav-link{
+    font-size: 16px;
+    padding:10px 30px;
+    color: #4d4e53;
+}
 
 #navbar{
     background-color: white;
@@ -56,4 +65,12 @@ p{
     color: #4d4e53;
     text-decoration: none;
     cursor: pointer;
-  }
+}
+code{
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin:10px;
+    padding:15px;
+    display:block;
+    text-align: left;
+}
