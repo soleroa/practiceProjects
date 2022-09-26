@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");  
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+h1[id="title"]{
+    text-align: center;
+}
+p[id="description"]{
+    text-align: center;
+    font-style: italic;
+}
+label{
+    display: block;
+    text-align: left;
+    margin: 20px auto;
+}
+.formulario{
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+   max-width: 500px;
+   background: rgb(36,36,68,0.5);
+   border-radius: 5px;
+}
+input{
+    display:block;
+    width: 75%;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    border:none;
+    border:solid 1px #ccc;
+    border-radius: 5px;
+}
+select{
+    display:block;
+    width: 75%;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border:none;
+    border:solid 1px #ccc;
+}
+input[type="radio"]{
+    display:inline;
+    width:auto;
+    padding: 5px 10px;
+    margin: 5px 0px;
+}
+input[type="checkbox"]{
+    display:inline;
+    width:auto;
+    
+}
+textarea{
+    display:block;
+    width: 75%;
+    height: 75%;
+    border-radius: 5px;
+}
+button[id="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #37af65;
+    color:white;
+    border:none;
+    min-width: 300px;
+    border-radius: 5px;
+}

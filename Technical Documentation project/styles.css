@@ -1,0 +1,44 @@
+html, body{
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #ffffff;
+    color:#000000;
+}
+
+header{
+    margin:10px;
+    text-align: center;
+    font-size: 29.8px;
+}
+p{
+    font-size: 15.36px;
+    color:4d4e53;
+}
+#navbar{
+    background-color: white;
+    position:absolute;
+    top:0;
+    padding:0;
+    margin:0;
+    width:100%;
+    max-height: 275px;
+    border:none;
+    z-index: 1;
+    border-bottom: 2px solid;
+}
+
+.nav-link{
+    display: inline-block;
+}
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
