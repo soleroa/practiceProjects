@@ -10,7 +10,6 @@
     <nav id="navbar">
       <header>JS documentation</header>
       <ul>
-      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
       <li><a class="nav-link" href="#what_you_should_already_know">What you should already know</a></li>
       <li><a class="nav-link" href="#javascript_and_java">JavaScript and Java</a></li>
       <li><a class="nav-link" href="#hello_world">Hello World</a></li>
@@ -21,6 +20,7 @@
       <li><a class="nav-link" href="#constants">Constants</a></li>
       <li><a class="nav-link" href="#data_types">Data types</a></li>
       <li><a class="nav-link" href="#if_else_statement">if...else statement</a></li>
+      <li><a class="nav-link" href="#while_statement">while statement</a></li>
       <li><a class="nav-link" href="#function_declarations">Function declarations</a></li>
       <li><a class="nav-link" href="#reference">Reference</a></li>
       </ul>
@@ -163,6 +163,24 @@
       <p>If you need to use an assignment in a conditional expression, a common practice is to put additional parentheses around the assignment. For example:</p>
       <code>if ((x = y)) { /* statements here */ }</code>
     </article>
+    <section class="main-section" id="while_statement">
+      <article>
+        <header>while statement</header>
+        <p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:</p>
+        <code>while (condition) statement</code>
+        <p>If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.</p>
+        <p>The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns false, execution stops and control is passed to the statement following while.</p>
+        <p>To execute multiple statements, use a block statement ({ ... }) to group those statements.</p>
+        <p>Example:</p>
+        <p>The following while loop iterates as long as n is less than three:</p>
+        <code>var n = 0; var x = 0; while (n < 3) { n++; x += n; }</code>
+        <p>With each iteration, the loop increments n and adds that value to x. Therefore, x and n take on the following values:</p>
+        <li>After the first pass: n = 1 and x = 1</li>
+        <li>After the second pass: n = 2 and x = 3</li>
+        <li>After the third pass: n = 3 and x = 6</li>
+      </article>
+      
+    </section>
   </section>
   <section class="main-section" id="function_declarations">
     <article>
